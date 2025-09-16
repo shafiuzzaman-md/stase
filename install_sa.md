@@ -1,12 +1,12 @@
 # Install cclyzerpp and Souffle
 
 ## Step-1: Install Souffle
-'''
+```
 sudo wget --no-verbose https://souffle-lang.github.io/ppa/souffle-key.public -O /usr/share/keyrings/souffle-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/souffle-archive-keyring.gpg] https://souffle-lang.github.io/ppa/ubuntu/ stable main" | sudo tee /etc/apt/sources.list.d/souffle.list
 sudo apt-get update
 sudo apt-get --yes install --no-install-recommends souffle=2.3
-'''
+```
 ## Step-2: Install cclyzerpp
 - Clone the repo and checkout to v0.7.0
 ```
